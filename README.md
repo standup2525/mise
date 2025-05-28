@@ -23,8 +23,6 @@ Python 스크립트: 데이터 수신 및 Twilio API 연동
 
 프로젝트 구조
 plaintext
-복사
-편집
 mise/
 ├── Core/                # 메인 펌웨어 소스 코드
 ├── Drivers/             # STM32 드라이버 및 HAL 라이브러리
@@ -39,6 +37,8 @@ mise/
 ├── f401re_timer1ms_uart_dht11_dust_1.ioc   # CubeMX 설정 파일
 ├── f401re_timer1ms_uart_dht11_dust_1.launch # IDE 실행 설정
 └── README.md            # 프로젝트 설명서
+
+
 주의사항
 센서 연결: 센서와 보드 간의 연결 시 핀 번호 및 전압 레벨을 정확히 확인하시기 바랍니다.
 
